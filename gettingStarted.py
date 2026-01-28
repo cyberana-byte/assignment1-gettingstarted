@@ -22,7 +22,7 @@ def welcome_assignment_answers(question):
         answer = "No"
 
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "4"
+        answer = "5"
 
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = "3"
@@ -36,6 +36,7 @@ def welcome_assignment_answers(question):
 if __name__ == "__main__":
     debug_question = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question))
+
 
 
 
