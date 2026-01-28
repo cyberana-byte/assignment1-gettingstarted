@@ -10,7 +10,7 @@ def welcome_assignment_answers(question):
         answer = "No"
 
     elif question == "Is it possible to decode a message without a key? - Yes/No":
-        answer = "Yes"
+        answer = "No"
 
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
@@ -25,7 +25,7 @@ def welcome_assignment_answers(question):
         answer = "4"
 
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = "3"
+        answer = "7"
 
     else:
         answer = "Error: Question not recognized."
@@ -36,4 +36,5 @@ def welcome_assignment_answers(question):
 if __name__ == "__main__":
     debug_question = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question))
+
 
